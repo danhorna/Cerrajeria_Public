@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.centrar{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cabecera{
+  background-color: #F8F9FA;
+}
