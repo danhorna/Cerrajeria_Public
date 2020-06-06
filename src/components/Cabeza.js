@@ -9,7 +9,7 @@ function Cabecera(){
             <div className='centrar container'>
                 <div className='row'>
                     <div className='col'>
-                        <img src={logo} className='img-fluid'/>
+                        <img src={logo} className='img-fluid' alt='logo'/>
                     </div>
                     <div className='col p-0 pt-2'>
                         <Navbar></Navbar>

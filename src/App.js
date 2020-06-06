@@ -3,10 +3,15 @@ import './App.css';
 
 //componentes
 import Cabecera from './components/Cabeza';
+import FilaHorario from './components/FilaHorario'
+
 
 function App() {
   return (
-    <Cabecera></Cabecera>
+    <div>
+      <Cabecera></Cabecera>
+      <FilaHorario></FilaHorario>
+    </div>
   );
 }
 
