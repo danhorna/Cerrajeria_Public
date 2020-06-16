@@ -3,9 +3,6 @@ import React, { useState, useEffect } from 'react'
 
 function EstadoLocal(){
 
-    const [hora, setHora] = useState(
-        new Date
-    )
     const [estado, setEstado] = useState({
         cn : "spinner-border spinner-border-sm",
         ct : "Cargando"
@@ -27,7 +24,6 @@ function EstadoLocal(){
     }
     useEffect( () => {
         var timerID = setInterval(() => {
-            setHora(new Date);
             elEstado() ? 
                 setEstado({
                     cn : "spinner-grow text-success spinner-grow-sm",
