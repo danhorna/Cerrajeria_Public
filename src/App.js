@@ -5,6 +5,8 @@ import './App.css';
 import Cabecera from './components/Cabeza';
 import FilaHorario from './components/FilaHorario'
 import Cuerpo from './components/Cuerpo'
+import Detalles from './components/Detalles'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Cabecera></Cabecera>
       <FilaHorario></FilaHorario>
       <Cuerpo></Cuerpo>
+      <Detalles></Detalles>
+      <Footer></Footer>
     </div>
   );
 }

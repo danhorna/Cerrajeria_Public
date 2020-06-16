@@ -14,14 +14,14 @@ function Cuerpo(){
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img className="d-block w-100" src={body1} alt="¿Mi llave esta lista?"/>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption">
                             <h5>Estado de mi orden</h5>
                             <p>Ingrese aqui para verificar el estado de su orden</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img className="d-block w-100" src={body2} alt="Ofertas"/>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption">
                             <h5>Ofertas</h5>
                             <p>Ingrese aqui para ver las ofertas actuales</p>
                         </div>
