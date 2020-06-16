@@ -14,7 +14,7 @@ function EstadoLocal(){
     const elEstado = () =>{
         var dt = new Date();
 
-        var startTime = '18:26:20';
+        var startTime = '15:00:00';
         var endTime = '22:00:00';
 
         var s =  startTime.split(':');
