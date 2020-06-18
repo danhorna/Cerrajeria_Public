@@ -2,7 +2,7 @@ import React from 'react'
 
 function Detalles(){
     return(
-        <div className="centrar">
+        <div>
             <h4 className="text-white text-center pt-4 pb-3">Servicios y Caracteristicas</h4>
             <table className="table table-borderless">
                 <tbody>
