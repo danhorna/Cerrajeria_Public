@@ -1,10 +1,10 @@
 import React from 'react';
 import FilaHorario from './FilaHorario'
 import Cuerpo from './Cuerpo'
-import {NavLink,HashRouter} from 'react-router-dom'
+import {BrowserRouter, NavLink} from 'react-router-dom'
 function Navbar(){
     return(
-        <HashRouter>
+        <BrowserRouter>
             <div>
                 <div className="centrar">
                     <nav className="navbar navbar-expand-lg navbar-light navStyle">
@@ -24,12 +24,13 @@ function Navbar(){
                                 </li>
                             </ul>
                         </div>
+                        <NavLink to="/admin" className="text-danger">ADMIN</NavLink>
                     </nav>
                 </div>
                 <FilaHorario></FilaHorario>
                 <Cuerpo></Cuerpo>
             </div>
-        </HashRouter>
+        </BrowserRouter>
     )
 }
 
